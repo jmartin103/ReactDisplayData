@@ -6,14 +6,12 @@ import "./styles.css";
  * ------------------------
  */
 const user = {
-  name: "Chris on Code",
-  location: "Las Vegas",
+  name: "John Martin",
+  location: "Atlanta",
   foodType: "Everything",
-  age: 32,
+  age: 28,
   likes: "Coding into the wee hours of the morning",
-  twitterUsername: "chris__sev",
-  avatar:
-    "https://scotch-res.cloudinary.com/image/upload/v1556479698/xRZsnhr0_400x400_cpyg2t.png"
+  twitterUsername: "JohnMar76462157"
 };
 
 /**
@@ -25,7 +23,6 @@ function App() {
     <div className="App">
       {/* Show user data here */}
       <div className="user-deets">
-        <img src={user.avatar} alt="Chris on Code" />
         <h3>{user.name}</h3>
         <strong>Location</strong>
         <p>{user.location}</p>
